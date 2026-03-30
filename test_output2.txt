@@ -1,0 +1,27 @@
+﻿node : ERROR: 
+[GoogleGenerativeAI Error]: 
+Error fetching from https://g
+enerativelanguage.googleapis.
+com/v1/models/gemini-1.0-pro:
+generateContent: [404 Not 
+Found] models/gemini-1.0-pro 
+is not found for API version 
+v1, or is not supported for 
+generateContent. Call 
+ListModels to see the list 
+of available models and 
+their supported methods.
+At line:1 char:11
++ $result = node 
+test_gemini.js 2>&1; $result 
+| Out-File -Encoding utf8 ...
++           
+~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (ERROR:   
+  [GoogleG...ported method   
+ s.:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
